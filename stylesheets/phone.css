@@ -1,0 +1,62 @@
+/* Boxes */
+.columns{
+	grid-template-columns: auto;
+	justify-content: center;
+}
+.box{
+	/* height: 600px;
+	*/
+	width: 550px;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 20px;
+	margin: 10px;
+	padding: 20px;
+}
+.box h2{
+	color: yellowgreen;
+	font-size: 2rem;
+	margin-bottom: 40px;
+}
+.box p{
+	color: white;
+	font-size: 1.1rem;
+}
+/* Home */
+#home {
+	height: 820px;
+}
+.headings{
+	font-size: 1.7rem;
+}
+/* About */
+#pic img {
+	width: 200px;
+	height: 200px;
+}
+#intro h2{
+	font-size: 1.5rem;
+}
+/* Portfolio */
+.gallery img {
+	width: 275px;
+	height: 150px;
+	padding: 10px;
+}
+#about h1 {
+	margin: 85px;
+}
+#portfolio h1 {
+	margin: 85px;
+}
+#education h1 {
+	margin: 100px;
+}
+#services h1 {
+	margin: 85px;
+}
+#contact h1 {
+	margin: 85px;
+}
+div.box h1.headings{
+	margin: 0px !important;
+}
